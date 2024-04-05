@@ -61,7 +61,7 @@ ul {
   }
   .whatsapp{
     background:lightgreen;
-color: #000;
+    color: #000;
   }
   .phone 
   {
@@ -72,6 +72,8 @@ color: #000;
   .container {
     display: flex;
     align-items: center;
+    border: 2px;;
+    border-color: #000;
   }
 
   .image
