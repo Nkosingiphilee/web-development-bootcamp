@@ -7,7 +7,7 @@ ul {
   }
   
   li {
-    float: right;
+    float:right;
     border-right: 1px solid #bbb
   }
   
@@ -63,6 +63,32 @@ ul {
     background:lightgreen;
 color: #000;
   }
-  .phone  {   background:rgb(205, 13, 13);
-    color: #faf3f3;}
-    
+  .phone 
+  {
+       background:rgb(205, 13, 13);
+    color: #faf3f3;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .image
+  {
+    display: block;
+    border-radius: 50%;
+    float: right;
+    width: 500px;
+  }
+
+p{
+  float:left;
+  text-align: start;
+  margin: 10px 40px 50px 2px;
+}
+.video{
+  margin-top:10px ;
+  height: 500px;
+  width: 1500px;
+}
