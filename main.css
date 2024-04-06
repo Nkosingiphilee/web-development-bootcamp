@@ -112,3 +112,13 @@ body {
   font-weight:bolder;
   color: aliceblue;
 }
+
+.icon-bar-index 
+{
+  display: flexbox;
+    text-align: rigt;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: rgb(251, 251, 251);
+    font-size: 50px;
+}
