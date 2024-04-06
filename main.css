@@ -1,106 +1,110 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float:right;
-    border-right: 1px solid #bbb
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .active {
-    background-color: #aa0404;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  .icon-bar {
-    display: -ms-flexbox;
-    position:fixed;
-    top: 56%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+li {
+  float: right;
+  border-right: 1px solid #bbb
+}
 
-  .icon-bar a {
-    display: flexbox;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  .icon-bar a:hover {
-    background-color: #000;
-  }
-  
-  .facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
+.active {
+  background-color: #aa0404;
+}
 
-  .linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .github {
-    background: #0f0f0f;
-    color: rgb(255, 250, 250);
-  }
-  .whatsapp{
-    background:lightgreen;
-    color: #000;
-  }
-  .phone 
-  {
-       background:rgb(205, 13, 13);
-    color: #faf3f3;
-  }
+.icon-bar {
+  display: -ms-flexbox;
+  position: fixed;
+  top: 56%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
-  .container {
-    display: flex;
-    align-items: center;
-    border: 2px;;
-    border-color: #000;
-  }
+.icon-bar a {
+  display: flexbox;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
 
-  .image
-  {
-    display: block;
-    border-radius: 50%;
-    float: right;
-    width: 1000px;
+.icon-bar a:hover {
+  background-color: #000;
+}
 
-  }
+.facebook {
+  background: #3B5998;
+  color: white;
+}
 
-p{
-  float:left;
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.github {
+  background: #0f0f0f;
+  color: rgb(255, 250, 250);
+}
+
+.whatsapp {
+  background: lightgreen;
+  color: #000;
+}
+
+.phone {
+  background: rgb(205, 13, 13);
+  color: #faf3f3;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border: 2px;
+  ;
+  border-color: #000;
+}
+
+.image {
+  display: block;
+  border-radius: 50%;
+  float: right;
+  width: 1000px;
+
+}
+
+p {
+  float: left;
   text-align: start;
   margin: 10px 40px 50px 2px;
 }
-.video{
-  margin-top:10px ;
+
+.video {
+  margin-top: 10px;
   height: 500px;
   width: 1500px;
 }
 
-.logo{
+.logo {
   display: block;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px; ;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  ;
 }
 
 body {
@@ -109,16 +113,15 @@ body {
   background-size: cover;
   font-family: 'Times New Roman', Times, serif;
   font-size: larger;
-  font-weight:bolder;
+  font-weight: bolder;
   color: aliceblue;
 }
 
-.icon-bar-index 
-{
+.icon-bar-index {
   display: flexbox;
-    text-align: rigt;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: rgb(251, 251, 251);
-    font-size: 50px;
+  text-align: rigt;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: rgb(251, 251, 251);
+  font-size: 50px;
 }
