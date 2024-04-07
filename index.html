@@ -7,13 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page </title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js">
+  </script>
+ <script type="text/javascript">
+        function initialize() {
+            var mapOptions = {
+                center: new google.maps.LatLng(-29.831194, 30.986519),
+                zoom: 15
+            };
+            var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        }
+    </script>
 </head>
 
-<body>
+<body  onload="initialize()">
 
     <ul>
         <li style="float:left"><a href="index.html"><img class="logo" src="logo.gif" alt="logo"></a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">About me</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a class="active" href="index.html">Home</a></li>
     </ul>
@@ -40,9 +52,9 @@
     </div>
 
     <hr>
-    <footer>
-
-        <address>Vryheid P.O. BOX 001 Hlobane 3145</address>
+<footer>
+    <div class="container" > 
+        <address style="float: left;width: 1000px;">Vryheid P.O. BOX 001 Hlobane 3145
         <div class="icon-bar-index ">
             <a href="https://www.facebook.com/nkosingiphile.phungula.313" class="facebooki"><i
                     class="fa fa-facebook"></i></a>
@@ -50,10 +62,9 @@
                     class="fa fa-linkedin"></i></a>
             <a href="https://github.com/Nkosingiphilee" class="github"><i class="fa fa-github"></i></a>
         </div>
-
-
-        <p>&copy; 2024 nkosingiphile</p>
-    </footer>
+</address>
+        <div id="map-canvas" class="map-canvas"></div>
+   </div> </footer>
 </body>
 
 </html>

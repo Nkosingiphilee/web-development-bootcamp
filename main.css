@@ -24,8 +24,8 @@ li a {
 }
 
 .icon-bar {
-  display: -ms-flexbox;
-  position: fixed;
+  display: flexbox;
+  position:relative;
   top: 56%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -62,7 +62,7 @@ li a {
 }
 
 .whatsapp {
-  background: lightgreen;
+  background: rgb(68, 235, 68);
   color: #000;
 }
 
@@ -83,14 +83,15 @@ li a {
   display: block;
   border-radius: 50%;
   float: right;
-  width: 1000px;
-
-}
+  width:  350px;
+  height: 350px;
+} 
 
 p {
+  width: 1000px;
   float: left;
   text-align: start;
-  margin: 10px 40px 50px 2px;
+  margin: 10px 50px 50px 2px;
 }
 
 .video {
@@ -124,4 +125,17 @@ body {
   transition: all 0.3s ease;
   color: rgb(251, 251, 251);
   font-size: 50px;
+}
+
+h1 {
+  background-color: #efefef;
+  padding: 10px;
+  color: black;
+}
+
+.map-canvas{
+  border-radius: 5%;
+  width:50%;  
+  height:200px; 
+  float: right;
 }
