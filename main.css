@@ -109,7 +109,7 @@ p {
 }
 
 body {
-  background-image: url('logo.gif');
+  background-image: url('Images/logo.gif');
   background-attachment: fixed;
   background-size: cover;
   font-family: 'Times New Roman', Times, serif;
