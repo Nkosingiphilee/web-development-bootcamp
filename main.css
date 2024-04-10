@@ -25,7 +25,7 @@ li a {
 
 .icon-bar {
   display: flexbox;
-  position:fixed;
+  position: fixed;
   top: 56%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -83,9 +83,9 @@ li a {
   display: block;
   border-radius: 50%;
   float: right;
-  width:  350px;
+  width: 350px;
   height: 350px;
-} 
+}
 
 p {
   width: 1000px;
@@ -131,11 +131,4 @@ h1 {
   background-color: #efefef;
   padding: 10px;
   color: black;
-}
-
-.map-canvas{
-  border-radius: 5%;
-  width:50%;  
-  height:200px; 
-  float: right;
 }
