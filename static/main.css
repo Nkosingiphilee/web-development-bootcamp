@@ -24,18 +24,21 @@ li a {
 }
 
 .icon-bar {
-  display: flex;
-  position:relative;
+  display: flexbox;
+  position: fixed;
+  top: 56%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .icon-bar a {
-  display:inline-flex;
+  display: flexbox;
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
   color: rgb(255, 255, 255);
   font-size: 50px;
-  align-content: center;
 }
 
 .icon-bar a:hover {
@@ -72,6 +75,7 @@ li a {
   display: flex;
   align-items: center;
   border: 2px;
+  ;
   border-color: #000;
 }
 
@@ -83,18 +87,14 @@ li a {
   height: 350px;
 }
 
-.container p {
-  display:grid;
-  align-items: center;
+p {
   width: 1000px;
   float: left;
   text-align: start;
   margin: 10px 50px 50px 2px;
-  color: #ffffff;
 }
 
 .video {
-  display: grid;
   margin-top: 10px;
   height: 500px;
   width: 1500px;
@@ -116,10 +116,6 @@ body {
   font-size: larger;
   font-weight: bolder;
   color: aliceblue;
-  text-align: center;
-  justify-content: center;
-align-items: center;
-  
 }
 
 .icon-bar-index {
@@ -132,70 +128,7 @@ align-items: center;
 }
 
 h1 {
+  background-color: #efefef;
   padding: 10px;
-  color: rgb(240, 15, 15);
-}
-
-
-form {
-  width: 600px;
-  background-color: #0a7a14;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px
-      rgba(0, 0, 0, 0.1);
-}
-
-fieldset {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 0;
-}
-
-legend {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea,
-input[type="date"] {
-  width: calc(100% - 20px);
-  padding: 8px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-
-input[type="submit"] {
-  padding: 10px 20px;
-
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.tech-stack{
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,auto));
-  gap: 2px;
-  justify-content: center;
-  align-items: center;
-}
-
-.about{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit,minmax(200px,auto));
-  padding-left: 300px;
-  width: 900px;
-
+  color: black;
 }
