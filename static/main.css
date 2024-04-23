@@ -192,3 +192,6 @@ input[type="submit"] {
 
 }
 
+.hidden {
+  display: none;
+}
